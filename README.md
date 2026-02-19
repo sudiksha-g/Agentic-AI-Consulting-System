@@ -5,7 +5,7 @@ This project builds a multi-agent (Agentic) AI system to solve a real-world busi
 Instead of asking a single LLM to answer the question directly, this system uses four coordinated AI agents, each with a specific role. The agents collaborate autonomously to analyze financial data, strategy, operations, and market positioning before delivering a final recommendation.
 
 
-$ System Overview
+### System Overview
 
 The system consists of:
 	1.	Planner Agent
@@ -15,7 +15,7 @@ The system consists of:
 
 Each agent has a clearly defined responsibility, creating a structured workflow similar to how a real consulting team would operate.
 
-1. Planner Agent
+## 1. Planner Agent
 
 The Planner Agent acts as the project manager.
 
