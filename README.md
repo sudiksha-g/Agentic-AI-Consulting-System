@@ -1,12 +1,11 @@
-# Agentic AI Consulting System
+## Agentic AI Consulting System
 
 This project builds a multi-agent (Agentic) AI system to solve a real-world business consulting problem. The system evaluates whether a traditional global retailer (ABC) should add a personalized online styling business model similar to XYZ Personalized Styling.
 
 Instead of asking a single LLM to answer the question directly, this system uses four coordinated AI agents, each with a specific role. The agents collaborate autonomously to analyze financial data, strategy, operations, and market positioning before delivering a final recommendation.
 
-⸻
 
-System Overview
+$ System Overview
 
 The system consists of:
 	1.	Planner Agent
@@ -15,8 +14,6 @@ The system consists of:
 	4.	Synthesizer Agent
 
 Each agent has a clearly defined responsibility, creating a structured workflow similar to how a real consulting team would operate.
-
-⸻
 
 1. Planner Agent
 
@@ -30,9 +27,7 @@ It:
 
 Rather than immediately generating an answer, the planner ensures the problem is structured before execution.
 
-⸻
-
-2. Financial Analyzer Agent (RAG Pipeline)
+# 2. Financial Analyzer Agent (RAG Pipeline)
 
 This agent focuses strictly on financial evaluation using Retrieval-Augmented Generation (RAG).
 
@@ -47,9 +42,7 @@ It analyzes:
 
 It uses structured financial data and contextual company information to generate data-driven insights.
 
-⸻
-
-3. Strategic Analyzer Agent (RAG Pipeline)
+# 3. Strategic Analyzer Agent (RAG Pipeline)
 
 This agent focuses on strategy, brand, and operational impact.
 
@@ -66,7 +59,7 @@ It determines whether adding the online styling model strengthens or weakens ABC
 
 ⸻
 
-4. Synthesizer Agent
+# 4. Synthesizer Agent
 
 The Synthesizer Agent acts as the final decision layer.
 
@@ -78,9 +71,7 @@ It:
 
 The output resembles a structured consulting report rather than a raw LLM response.
 
-⸻
-
-Why a Multi-Agent System?
+# Why a Multi-Agent System?
 
 Compared to giving the question directly to a single LLM, this agentic system:
 	•	Enforces structured reasoning
@@ -91,8 +82,6 @@ Compared to giving the question directly to a single LLM, this agentic system:
 
 The result is a more explainable, modular, and extensible AI decision system.
 
-⸻
-
-Project Context
+# Project Context
 
 This system was built as part of an advanced Agentic AI assignment focused on designing a multi-agent LLM system for a complex consulting task.
